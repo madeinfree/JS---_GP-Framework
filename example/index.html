@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hello</title>
+</head>
+<body>
+<div id="Demo" class="Demo">123</div>
+<script src="_js/_GP.js"></script>
+<script>
+		var Demo_GP = new _GP();
+		var D = Demo_GP.getID('Demo').css({
+			'width': 100+'px', 
+			'height': 100+'px', 
+			'border': 'solid 1px'
+		}).on('click', function() {
+			console.log('click');
+		}, false);
+</script>
+</body>
+</html>

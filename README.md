@@ -1,4 +1,7 @@
-使用方法：「<script src="_GP.js"></script>」
+[_GP](https://github.com/madeinfree/JS---_GP-Framework) - _GP JavaScript FrameWork
+==================================================================================
+
+用方法：「```js<script src="_GP.js"></script>```」
 
 一定要先創建對象 var GP = new _GP();
 
